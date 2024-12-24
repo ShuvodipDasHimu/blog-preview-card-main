@@ -1,0 +1,120 @@
+@import url("https://fonts.google.com/specimen/Figtree");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Figtree", sans-serif;
+}
+
+.container {
+  margin-top: 150px;
+  background-color: #fff;
+  height: 450px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: black 6px 6px 2px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container img {
+  height: 160px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  margin-top: 20px;
+  position: relative;
+}
+
+.info-container button {
+  background-color: #F2D346;
+  border: none;
+  max-width: 100px;
+  font-weight: 1000;
+  padding: 8px 14px;
+  margin-left: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+.info-container p{
+  margin-left: 16px;
+  margin-top: 14px;
+  font-weight: 500;
+}
+
+.text-container {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.text-container h1 {
+  font-weight: bolder;
+  width: 400px;
+  font-size: 18px;
+  margin-left: 16px;
+  margin-top: 14px;
+}
+
+.text-container p {
+  color: gray;
+  font-weight: 700;
+  width: 400px;
+  font-size: 13px;
+  margin-left: 16px;
+  margin-top: 14px;
+}
+
+.author-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-left: 16px;
+}
+
+.author-container img {
+  height: 30px;
+}
+
+.author-container p {
+  margin-top: 3px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
